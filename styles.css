@@ -1,27 +1,37 @@
+/* bg-color:  rgba(255, 255, 255, 1) */
+/* main-text-color: rgba(33, 33, 33, 1) */
+/* secondary-text-color: rgba(117, 117, 117, 1) */
+/* bg-buttons-color-hover: rgba(33, 150, 243, 1) */
+/* text-buttons-color-hover: rgba(255, 255, 255, 1) */
+/* footer-color: rgba(47, 48, 58, 1) */
+
 :root {
   --main-text-color: rgba(33, 33, 33, 1);
   --bg-color: rgba(255, 255, 255, 1);
   --secondary-text-color: rgba(117, 117, 117, 1);
   --bg-buttons-color-hover: rgba(33, 150, 243, 1);
   --text-buttons-color-hover: rgba(255, 255, 255, 1);
+  --footer-color: rgba(47, 48, 58, 1);
+  --footer-text-color: rgba(255, 255, 255, 1);
 }
-/* bg-color:  rgba(255, 255, 255, 1) */
-/* main-text-color: rgba(33, 33, 33, 1) */
-/* secondary-text-color: rgba(117, 117, 117, 1) */
-/* bg-buttons-color-hover: rgba(33, 150, 243, 1) */
-/* text-buttons-color-hover: rgba(255, 255, 255, 1) */
 body {
   color: var(--main-text-color);
 }
 a {
   text-decoration: none;
 }
-.nav-list > a:hover,
-.nav-list > a:focus {
+.logo {
+  color: var(--main-text-color);
+}
+.logo:hover {
   color: var(--bg-buttons-color-hover);
 }
 .nav-list > a {
   color: var(--main-text-color);
+}
+.nav-list > a:hover,
+.nav-list > a:focus {
+  color: var(--bg-buttons-color-hover);
 }
 .contacts > a:focus,
 .contacts > a:hover {
@@ -38,5 +48,18 @@ a {
   background-color: var(--bg-buttons-color-hover);
   color: var(--text-buttons-color-hover);
 }
-.cards > li {
+.nav-button {
+  cursor: pointer;
+}
+p {
+  color: var(--secondary-text-color);
+}
+h2 {
+  color: var(--main-text-color);
+}
+.bottom {
+  background-color: var(--footer-color);
+}
+.address-list {
+  color: var(--footer-text-color);
 }
