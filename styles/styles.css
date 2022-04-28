@@ -1,0 +1,176 @@
+/* bg-color:  rgba(255, 255, 255, 1) */
+/* main-text-color: rgba(33, 33, 33, 1) */
+/* secondary-text-color: rgba(117, 117, 117, 1) */
+/* bg-button-color: rgba(245, 244, 250, 1) */
+/* bg-buttons-color-hover: rgba(33, 150, 243, 1) */
+/* text-buttons-color-hover: rgba(255, 255, 255, 1) */
+/* footer-color: rgba(47, 48, 58, 1) */
+/* bg-hero-color: rgba(47, 48, 58, 1) */
+/* font-size-logo: 26px */
+
+:root {
+  --main-text-color: rgba(33, 33, 33, 1);
+  --bg-color: rgba(255, 255, 255, 1);
+  --secondary-text-color: rgba(117, 117, 117, 1);
+  --bg-buttons-color-hover: rgba(33, 150, 243, 1);
+  --text-buttons-color-hover: rgba(255, 255, 255, 1);
+  --footer-color: rgba(47, 48, 58, 1);
+  --footer-text-color: rgba(255, 255, 255, 1);
+  --bg-hero-color: rgba(47, 48, 58, 1);
+  --bg-button-color: rgba(245, 244, 250, 1);
+  --font-size-logo: font-size: 26px;
+}
+body {
+  color: var(--main-text-color);
+  background-color: var(--bg-color);
+  font-family: Roboto, sans-serif;
+}
+.logo {
+  font-size: 26px;
+  text-decoration: none;
+  line-height: 1.17;
+}
+.accent-logo {
+  color: var(--bg-buttons-color-hover);
+  text-decoration: none;
+}
+.logo {
+  color: var(--main-text-color);
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+.hero {
+  background-color: var(--bg-hero-color);
+}
+.nav-list > a {
+  color: var(--main-text-color);
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.17;
+}
+.nav-list > a:hover,
+.nav-list > a:focus {
+  color: var(--bg-buttons-color-hover);
+  text-decoration: none;
+}
+.contacts > a:focus,
+.contacts > a:hover {
+  color: var(--bg-buttons-color-hover);
+  text-decoration: none;
+}
+.contacts > a {
+  color: var(--secondary-text-color);
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.17;
+}
+.hero-heading {
+  color: var(--bg-color);
+  font-size: 44px;
+  text-align: center;
+  line-height: 1.36;
+}
+.hero-button {
+  background-color: var(--bg-buttons-color-hover);
+  color: var(--bg-color);
+  font-weight: 700;
+  font-size: 16px;
+  font-family: inherit;
+  cursor: pointer;
+  line-height: 1.87;
+}
+.offers {
+  color: var(--main-text-color);
+  line-height: 1.16;
+}
+.advantage-heading {
+  color: var(--main-text-color);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.17;
+}
+.advantage-paragraph {
+  color: var(--secondary-text-color);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.team > h2 {
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.18;
+}
+.team-mate {
+  font-weight: 500;
+  color: var(--main-text-color);
+  line-height: 1.18;
+}
+.team-position {
+  font-weight: 400;
+  color: var(--secondary-text-color);
+}
+.list {
+  list-style: none;
+  text-decoration: none;
+}
+.nav-button:focus,
+.nav-button:hover {
+  background-color: var(--bg-buttons-color-hover);
+  color: var(--text-buttons-color-hover);
+  border-color: var(--bg-buttons-color-hover);
+  text-decoration: none;
+}
+.nav-button {
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: var(--bg-button-color);
+  border-color: var(--bg-button-color);
+  font-weight: 500;
+  font-family: inherit;
+  line-height: 1.7;
+}
+.card-link {
+  text-decoration: none;
+}
+.card-heading:hover,
+.card-heading:focus {
+  color: var(--bg-buttons-color-hover);
+  text-decoration: none;
+}
+.card-heading {
+  color: var(--main-text-color);
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 2;
+}
+.card-paragraph:hover,
+.card-paragraph:focus {
+  color: var(--bg-buttons-color-hover);
+  text-decoration: none;
+}
+.card-paragraph {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 400;
+  line-height: 1.9;
+}
+.bottom {
+  background-color: var(--footer-color);
+  text-decoration: none;
+}
+.address-list {
+  color: var(--footer-text-color);
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 400;
+  line-height: 1.71;
+  font-style: normal;
+}
